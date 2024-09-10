@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7727001140430376072
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dust_DO_mat Variant
+  m_Shader: {fileID: -6465566751694194690, guid: 165c8e2210b2c4c4bafcadbd43615a0e,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: bd1a722ebc66c724888c316b9c9897bf, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DEPTHOFFSET_ON
+  - _ENABLE_FOG_ON_TRANSPARENT
+  - _SURFACE_TYPE_TRANSPARENT
+  - _TRANSPARENT_WRITES_MOTION_VEC
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+    RenderType: Transparent
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AlphaDstBlend: 1
+    - _BlendMode: 1
+    - _DepthOffsetAmount: 0
+    - _DepthSub: -2
+    - _DstBlend: 1
+    - _EnableFogOnTransparent: 1
+    - _NoiseOffsetRate: 5
+    - _NoiseScale: 6400
+    - _NoiseTransparency: 0.2
+    - _TransparentWritingMotionVec: 1
+    - _TransparentZWrite: 0
+    - _ZTestDepthEqualForOpaque: 0
+    - _ZTestTransparent: 0
+    - _ZWrite: 0
+    m_Colors: []
+  m_BuildTextureStacks: []
