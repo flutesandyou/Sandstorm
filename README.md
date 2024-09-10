@@ -5,7 +5,7 @@ RP:
 HDRP
 
 packages:
-terrain tools
+terrain tools,
 shader graph
 
 usage:
