@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Normal:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4e280bdbf15a0db47b7913ab18fc6a7c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ScrollAlbedo:
@@ -47,7 +47,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _NormalStrength: 0.2
+    - _NormalStrength: 0.3
     - _ReceivesSSR: 0
     - _RotationAngle: 18
     - _ScrollAlbedoOpacity: 0.15

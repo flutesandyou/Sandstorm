@@ -29,10 +29,10 @@ Material:
   m_Parent: {fileID: 2100000, guid: 55f74e92b4355ca45b605706b041c0a4, type: 2}
   m_ModifiedSerializedProperties: 24
   m_ValidKeywords:
-  - _DEPTHOFFSET_ON
   - _DISABLE_SSR
   - _DISABLE_SSR_TRANSPARENT
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _DEPTHOFFSET_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -54,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BlendNormal:
-        m_Texture: {fileID: 2800000, guid: 477df9d743ca12847a61ac545d748a54, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4e280bdbf15a0db47b7913ab18fc6a7c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -67,10 +67,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BlendDistance: 5
-    - _BlendNoiseScale: 5
-    - _BlendNoiseStrength: 16.19
-    - _BlendNormalStrength: 3
+    - _BlendDistance: -0.3
+    - _BlendNoiseScale: 237.26
+    - _BlendNoiseStrength: 12.7
+    - _BlendNormalStrength: 19.59
     - _BlendTiling: 0.02
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -79,7 +79,7 @@ Material:
     - _DepthOffsetEnable: 1
     - _DoubleSidedEnable: 0
     - _Metallic: 0
-    - _NormalStrength: 1
+    - _NormalStrength: 0.2
     - _ReceivesSSR: 0
     - _Smoothness: 0
     - _StencilRefDepth: 0
@@ -90,5 +90,5 @@ Material:
     m_Colors:
     - _BlendColorTint: {r: 1, g: 1, b: 1, a: 1}
     - _ColorTint: {r: 1, g: 1, b: 1, a: 0}
-    - _TerrainSizeOffset: {r: 250, g: 250, b: 0, a: 0}
+    - _TerrainSizeOffset: {r: 250, g: 250, b: -125, a: -125}
   m_BuildTextureStacks: []
