@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19385
+  controlID: 20341
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 19386
+  controlID: 20342
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19387
+  controlID: 20343
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -677,9 +677,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.006821, y: -33.68602, z: 90.624535}
+    m_Target: {x: 50.232132, y: -24.237709, z: 147.58102}
     speed: 2
-    m_Value: {x: 14.006821, y: -33.68602, z: 90.624535}
+    m_Value: {x: 50.232132, y: -24.237709, z: 147.58102}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -725,9 +725,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15018307, y: 0.6395065, z: -0.12665717, w: -0.74441624}
+    m_Target: {x: -0.15382868, y: 0.2684252, z: -0.0414727, w: -0.95094097}
     speed: 2
-    m_Value: {x: -0.15018307, y: 0.6395065, z: -0.12665717, w: -0.74441624}
+    m_Value: {x: -0.15369625, y: 0.2681941, z: -0.041436996, w: -0.9501223}
   m_Size:
     m_Target: 57.79779
     speed: 2
@@ -4529,136 +4529,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_WidgetStates:
     m_Keys:
-    - Display Stats -> Frame Stats
-    - Display Stats -> Bottlenecks
-    - Display Stats -> Update every second with average
-    - Display Stats -> Detailed Stats
-    - Display Stats -> Count Rays (MRays/Frame)
-    - Probe Volume -> Subdivision Visualization -> Display Cells
-    - Probe Volume -> Subdivision Visualization -> Display Bricks
-    - Probe Volume -> Subdivision Visualization -> Realtime Update
-    - Probe Volume -> Subdivision Visualization -> Culling Distance
-    - Probe Volume -> Probe Visualization -> Display Probes
-    - Probe Volume -> Probe Visualization -> Virtual Offset
-    - Probe Volume -> Probe Visualization -> Culling Distance
-    - Probe Volume -> Scenario Blending -> Number Of Cells Blended Per Frame
-    - Probe Volume -> Scenario Blending -> Turnover Rate
-    - Probe Volume -> Scenario Blending -> Scenario To Blend With
-    - Probe Volume -> Scenario Blending -> Scenario Blending Factor
-    - Decals -> Decals Affecting Transparent Objects -> Display Atlas
-    - Decals -> Decals Affecting Transparent Objects -> Mip Level
-    - Material -> Common Material Properties
-    - Material -> Material
-    - Material -> Engine
-    - Material -> Attributes
-    - Material -> Properties
-    - Material -> GBuffer
-    - Material -> Material Validator
-    - Material ->  -> Too High Color
-    - Material ->  -> Too Low Color
-    - Material ->  -> Not A Pure Metal Color
-    - Material ->  -> Pure Metals
-    - Material ->  -> Override Global Material Texture Mip Bias
-    - Material ->  -> Debug Global Material Texture Mip Bias Value
-    - Lighting -> Shadows -> Shadow Debug Mode
-    - Lighting -> Shadows ->  -> Use Selection
-    - Lighting -> Shadows ->  -> Shadow Map Index
-    - Lighting -> Shadows -> Global Shadow Scale Factor
-    - Lighting -> Shadows -> Clear Shadow Atlas
-    - Lighting -> Shadows -> Shadow Range Minimum Value
-    - Lighting -> Shadows -> Shadow Range Maximum Value
-    - Lighting -> Lighting -> Show Lights By Type
-    - Lighting -> Lighting -> Show Lights By Type -> Directional Lights
-    - Lighting -> Lighting -> Show Lights By Type -> Punctual Lights
-    - Lighting -> Lighting -> Show Lights By Type -> Area Lights
-    - Lighting -> Lighting -> Show Lights By Type -> Reflection Probes
-    - Lighting -> Lighting -> Exposure
-    - Lighting -> Lighting -> Exposure -> DebugMode
-    - Lighting -> Lighting -> Exposure -> Display Mask Only
-    - Lighting -> Lighting -> Exposure ->  -> Show Scene Overlay
-    - Lighting -> Lighting -> Exposure ->  -> Show Tonemap Curve
-    - Lighting -> Lighting -> Exposure ->  -> Center Around Exposure
-    - Lighting -> Lighting -> Exposure -> Display RGB Histogram
-    - Lighting -> Lighting -> Exposure -> Debug Exposure Compensation
-    - Lighting -> Lighting -> HDR
-    - Lighting -> Lighting -> HDR -> DebugMode
-    - Lighting -> Lighting -> Lighting Debug Mode
-    - Lighting -> Lighting -> Light Hierarchy Debug Mode
-    - Lighting -> Lighting -> Light Layers Visualization
-    - Lighting -> Lighting ->  -> Use Selected Light
-    - Lighting -> Lighting ->  -> Switch To Light's Shadow Layers
-    - Lighting -> Lighting ->  -> Filter Layers
-    - Lighting -> Lighting ->  -> Layers Color
-    - 'Lighting -> Lighting ->  -> Layers Color -> 0: Light Layer default'
-    - 'Lighting -> Lighting ->  -> Layers Color -> 1: Light Layer 1'
-    - 'Lighting -> Lighting ->  -> Layers Color -> 2: Light Layer 2'
-    - 'Lighting -> Lighting ->  -> Layers Color -> 3: Light Layer 3'
-    - 'Lighting -> Lighting ->  -> Layers Color -> 4: Light Layer 4'
-    - 'Lighting -> Lighting ->  -> Layers Color -> 5: Light Layer 5'
-    - 'Lighting -> Lighting ->  -> Layers Color -> 6: Light Layer 6'
-    - 'Lighting -> Lighting ->  -> Layers Color -> 7: Light Layer 7'
-    - Lighting -> Material Overrides -> Override Smoothness
-    - Lighting -> Material Overrides ->  -> Smoothness
-    - Lighting -> Material Overrides -> Override Albedo
-    - Lighting -> Material Overrides ->  -> Albedo
-    - Lighting -> Material Overrides -> Override Normal
-    - Lighting -> Material Overrides -> Override Specular Color
-    - Lighting -> Material Overrides ->  -> Specular Color
-    - Lighting -> Material Overrides -> Override Ambient Occlusion
-    - Lighting -> Material Overrides ->  -> Ambient Occlusion
-    - Lighting -> Material Overrides -> Override Emissive Color
-    - Lighting -> Material Overrides ->  -> Emissive Color
-    - Lighting -> Fullscreen Debug Mode
-    - Lighting ->  -> Screen Space Shadow Index
-    - Lighting ->  -> Ray Tracing Acceleration Structure View
-    - Lighting ->  -> Ray Tracing Acceleration Structure Mode
-    - Lighting ->  -> Debug Mip
-    - Lighting ->  -> Enable Depth Remap
-    - Lighting ->  ->  -> Depth Range Min Value
-    - Lighting ->  ->  -> Depth Range Max Value
-    - Lighting ->  -> Light Index
-    - Lighting -> Tile/Cluster Debug
-    - Lighting ->  -> Tile/Cluster Debug By Category
-    - Lighting ->  ->  -> Cluster Debug Mode
-    - Lighting ->  ->  -> Cluster Distance
-    - Lighting -> Display Sky Reflection
-    - Lighting ->  -> Sky Reflection Mipmap
-    - Lighting -> Display Light Volumes
-    - Lighting ->  -> Light Volume Debug Type
-    - Lighting ->  -> Max Debug Light Count
-    - Lighting -> Display Cookie Atlas
-    - Lighting ->  -> Mip Level
-    - Lighting ->  -> Clear Cookie Atlas
-    - Lighting -> Display Reflection Probe Atlas
-    - Lighting ->  -> Slice
-    - Lighting ->  -> Clear Reflection Probe Atlas
-    - Lighting ->  -> Apply Exposure
-    - Lighting -> Debug Overlay Screen Ratio
     - Rendering -> HDRP Render Graph -> Clear Render Targets At Creation
     - Rendering -> HDRP Render Graph -> Disable Pass Culling
     - Rendering -> HDRP Render Graph -> Immediate Mode
     - Rendering -> HDRP Render Graph -> Enable Logging
-    - Rendering -> Fullscreen Debug Mode
-    - Rendering ->  -> Max Overdraw Count
-    - Rendering ->  -> Max Quad Cost
-    - Rendering ->  -> Max Vertex Density
-    - Rendering ->  -> Min Motion Vector Length (in pixels)
-    - Rendering -> Mip Maps
-    - Rendering ->  -> Terrain Texture
-    - Rendering -> Color Picker -> Debug Mode
-    - Rendering -> Color Picker -> Font Color
-    - Rendering -> False Color Mode
-    - Rendering ->  -> Range Threshold 0
-    - Rendering ->  -> Range Threshold 1
-    - Rendering ->  -> Range Threshold 2
-    - Rendering ->  -> Range Threshold 3
-    - Rendering -> Freeze Camera For Culling
-    - Rendering -> Color Monitors -> Waveform
-    - Rendering -> Color Monitors -> #WaveformContainer -> Exposure
-    - Rendering -> Color Monitors -> #WaveformContainer -> Parade mode
-    - Rendering -> Color Monitors -> Vectorscope
-    - Rendering -> Color Monitors -> #VectorscopeContainer -> Exposure
-    - Rendering -> Color Monitors -> Size
     - Scene Camera -> Rendering
     - Scene Camera -> Rendering -> Lit Shader Mode
     - Scene Camera -> Rendering -> Full Depth Prepass within Deferred
@@ -4819,8 +4693,6 @@ MonoBehaviour:
     - Main Camera -> Light Loop -> Compute Light Evaluation
     - Main Camera -> Light Loop -> Compute Light Variants
     - Main Camera -> Light Loop -> Compute Material Variants
-    - Volume -> Component
-    - Volume -> Camera
     m_Values:
     - {fileID: 0}
     - {fileID: 0}
@@ -4986,136 +4858,8 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
   m_Settings: {fileID: 0}
-  m_DebugTreeState: -1845319591
+  m_DebugTreeState: -205711650
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
